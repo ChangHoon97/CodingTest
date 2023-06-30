@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 //가장 짧은 문자거리
 //ex) teachermode e

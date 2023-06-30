@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 //특정 단어 뒤집기
 //ex) a#b!GE*T@S

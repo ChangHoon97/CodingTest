@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 //유효한 펠린드롬
 //ex) found7, time: study; Yduts; emit, 7Dnuof

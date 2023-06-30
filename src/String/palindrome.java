@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 //회문 문자열
 //ex) gooG

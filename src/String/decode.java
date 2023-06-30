@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 //암호
 //ex) 4     #****###**#####**#####**##**

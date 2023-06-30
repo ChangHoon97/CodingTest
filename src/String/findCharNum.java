@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 // ex) computercontroller c
 public class findCharNum {

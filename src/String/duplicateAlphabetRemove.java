@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 //중복 단어 제거
 //ex) ksekkset

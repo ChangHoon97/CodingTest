@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 //숫자만 추출
 //ex) g0en2T0s8eSoft
