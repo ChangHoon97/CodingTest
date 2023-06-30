@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// ex) StuDY
 public class changeUpperLower {
     public String solution(String str){
         String answer ="";

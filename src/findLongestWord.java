@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+// ex) It is time to study
+public class findLongestWord {
     public String solution(String str){
         String answer ="";
         int m = Integer.MIN_VALUE, pos;
@@ -33,7 +34,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        findLongestWord T = new findLongestWord();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(T.solution(str));

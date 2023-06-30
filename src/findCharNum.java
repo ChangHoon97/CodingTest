@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// ex) computercontroller c
 public class findCharNum {
     public int solution(String str, char t ){
         int answer =0;
