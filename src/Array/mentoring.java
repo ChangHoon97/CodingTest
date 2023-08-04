@@ -7,7 +7,7 @@ import java.util.Scanner;
 //3 4 1 2
 //4 3 2 1
 //3 1 4 2
-public class Main {
+public class mentoring {
 
     public int solution(int n, int m, int[][] arr){
         int answer=0;
@@ -31,7 +31,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        mentoring T = new mentoring();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int m = kb.nextInt();
