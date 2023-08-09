@@ -9,7 +9,7 @@ import java.util.*;
 //3 2 5 7 8
 //for문으로 싹 다 돌릴시에는 TimeLimitExceed 발생
 //따라서 a[0]와 b[0]가 같은지 비교하면서 크거나 작을 시 포인터를 ++ 시켜준다
-class Main {
+class FindSameElement {
     public ArrayList<Integer> solution(int n, int m, int[] a, int[] b){
         ArrayList<Integer> answer = new ArrayList<>();
         Arrays.sort(a);
@@ -30,7 +30,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        FindSameElement T = new FindSameElement();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] a = new int[n];
