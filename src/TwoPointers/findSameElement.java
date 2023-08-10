@@ -2,39 +2,35 @@ package TwoPointers;
 
 import java.util.*;
 
-//두 배열 합치기
-//3
-//1 3 5
+//공통원소 구하기
 //5
-//2 3 6 7 9
-class SumTwoSequence {
+//1 3 9 5 2
+//5
+//3 2 5 7 8
+//for문으로 싹 다 돌릴시에는 TimeLimitExceed 발생
+//따라서 a[0]와 b[0]가 같은지 비교하면서 크거나 작을 시 포인터를 ++ 시켜준다
+class findSameElement {
     public ArrayList<Integer> solution(int n, int m, int[] a, int[] b){
         ArrayList<Integer> answer = new ArrayList<>();
+        Arrays.sort(a);
+        Arrays.sort(b);
         int aPointer=0, bPointer=0;
-        while(aPointer<n && bPointer <m){
-            if(a[aPointer] <= b[bPointer]){
+        while(aPointer<n && bPointer<m){
+            if(a[aPointer] == b[bPointer]){
                 answer.add(a[aPointer]);
+                bPointer++;
+            }else if (a[aPointer] < b[bPointer]) {
                 aPointer++;
             }else{
-                answer.add(b[bPointer]);
                 bPointer++;
             }
         }
-        while(aPointer < n){
-            answer.add(a[aPointer]);
-            aPointer++;
-        }
-        while(bPointer < m){
-            answer.add(b[bPointer]);
-            bPointer++;
-        }
-
 
         return answer;
     }
 
     public static void main(String[] args) {
-        SumTwoSequence T = new SumTwoSequence();
+        findSameElement T = new findSameElement();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] a = new int[n];

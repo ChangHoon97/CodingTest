@@ -2,7 +2,11 @@ package TwoPointers;
 
 import java.util.Scanner;
 
-public class Main {
+//최대 길이 연속부분수열
+//14 2
+//1 1 0 0 1 1 0 1 1 0 1 1 0 1
+
+public class longestSequence {
     public int solution(int n, int k, int[] arr){
         int answer=0, cnt=0, lt=0;
         for(int rt=0; rt<n; rt++){
@@ -19,7 +23,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        longestSequence T = new longestSequence();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();

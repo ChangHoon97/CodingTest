@@ -7,7 +7,7 @@ import java.util.*;
 //12 15 11 20 25 10 20 19 13 15
 // 모든 수를 3개씩 더한걸 비교하면 TimeLimitExceed 발생
 // sliding window 사용
-class SlidingWindow {
+class slidingWindow {
     public int solution(int n,int m, int[] a){
         int answer =0;
         int sum =0;
@@ -28,7 +28,7 @@ class SlidingWindow {
     }
 
     public static void main(String[] args) {
-        SlidingWindow T = new SlidingWindow();
+        slidingWindow T = new slidingWindow();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();

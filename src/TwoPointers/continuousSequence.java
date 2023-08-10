@@ -6,7 +6,7 @@ package TwoPointers;
 
 import java.util.Scanner;
 
-class ContinuousSequence {
+class continuousSequence {
     public int solution(int n, int m, int[] arr){
         int answer = 0;
         int lt=0;
@@ -27,7 +27,7 @@ class ContinuousSequence {
 
 
     public static void main(String[] args) {
-        ContinuousSequence T = new ContinuousSequence();
+        continuousSequence T = new continuousSequence();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();

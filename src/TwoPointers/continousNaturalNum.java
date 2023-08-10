@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //연속된 자연수의 합
 //15
-public class ContinousNaturalNum {
+public class continousNaturalNum {
     public int solution(int n){
 //        int answer =0;
 //        for(int i=1; i<=n/2; i++){
@@ -34,7 +34,7 @@ public class ContinousNaturalNum {
 
 
     public static void main(String[] args) {
-        ContinousNaturalNum T = new ContinousNaturalNum();
+        continousNaturalNum T = new continousNaturalNum();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(T.solution(n));
